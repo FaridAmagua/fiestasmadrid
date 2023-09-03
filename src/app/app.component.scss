@@ -1,0 +1,38 @@
+
+.title{
+  color: white;
+  font-size: 4rem;
+}
+.title-2{
+  color: white;
+  font-size: 2rem;
+}
+//SEGUNDA SECTION
+/* Estilos para la imagen de la tarjeta */
+.card{
+  background-color: black;
+}
+h5.card-title {
+  background-color:black;
+  color: white;
+}
+
+.card-img-top {
+}
+
+.card-icon{
+  height: 15px;
+  margin-right: 10px;
+  font-size: 1rem;
+
+}
+.card-text{
+  font-size: 0.9rem;
+}
+#btn-card{
+  width: 100%;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+ 
+}

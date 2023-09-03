@@ -1,0 +1,93 @@
+*{
+  // font-family:'Open Sans';
+}
+//FONDOS DEL MENU DROPDOWN NAVBAR
+.dropdown-menu.show{
+  background-color: black;
+}
+.dropdown-item{
+  background-color: transparent;
+}
+.neon-text{
+  font-size: 1.5rem; /* Tamaño del texto */
+  font-weight: bold; /* Grosor del texto */
+  color: #ff00a6; /* Color rosa apagado */
+  text-shadow: 0 0 10px #4b1c71, 0 0 12px #4b1c71; /* Efecto de neón con colores apagados */
+
+  /* Cambio de color del relleno en negrita */
+  // background-image: linear-gradient(to right, rgba(255, 0, 221, 0.1), rgba(255, 15, 231, 0.1));
+  // -webkit-background-clip: text;
+}
+.neon-text:hover{
+  font-size: 1.5rem; /* Tamaño del texto */
+  font-weight: bold; /* Grosor del texto */
+  color: #fff
+  ; /* Color rosa apagado */
+}
+.navbarDropdownMenuLink{
+  font-size: 1.5rem; /* Tamaño del texto */
+  font-weight: bold; /* Grosor del texto */
+  color: #ff00a6; /* Color rosa apagado */
+  text-shadow: 0 0 10px #4b1c71, 0 0 12px #4b1c71; /* Efecto de neón con colores apagados */
+}
+.logo-text{
+  font-size: 1.5rem; /* Tamaño del texto */
+  color: white;
+}
+.girls{
+  font-weight: bold; /* Grosor del texto */
+   /* Color rosa apagado */
+}
+.logo-text:hover{
+  font-size: 1.5rem; /* Tamaño del texto */
+  font-weight: bold; /* Grosor del texto */
+  color: #ff00a6
+  ; /* Color rosa apagado */
+}
+.dropdown-menu{
+//  border-radius: 0px; 
+ border: 0px;
+}
+.dropdown-menu .dropdown-item:focus{
+  color: #D0A049;
+
+}
+.navbar{
+  background-color: black;
+}
+/* Estilos para el menú desplegable */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #515458; /* Cambia a 'transparent' para que el fondo no tenga color */
+  color: none; /* Cambia este color al que prefieras */
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #C9A344;
+  }
+#navbarDropdownMenuLink{
+  color:#fff; 
+}
+/* Estilos para centrar el contenido dentro del enlace */
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Opcional, si deseas que el enlace ocupe toda la altura */
+}
+
+.Texto {
+  text-align: center;
+  align-items: center;
+}
+
+//MENU DESPLEGABLE
+.dropdown-menu{
+  background-color:#212529;
+}
+.dropdown-item{
+  // background-color: black;
+  color: #fff;
+}
+
+
+//animaciones
+// styles.scss
