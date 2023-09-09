@@ -6,20 +6,23 @@
 .title-2{
   color: white;
   font-size: 2rem;
+  font-family:'Roboto Condensed';
 }
 //SEGUNDA SECTION
 /* Estilos para la imagen de la tarjeta */
+.link-party{
+  color: #ff00a6;
+}
+.link-party:hover{
+color: black;
+}
 .card{
-  background-color: black;
+  background-color: whitesmoke;
 }
 h5.card-title {
   background-color:black;
   color: white;
 }
-
-.card-img-top {
-}
-
 .card-icon{
   height: 15px;
   margin-right: 10px;
@@ -32,7 +35,35 @@ h5.card-title {
 #btn-card{
   width: 100%;
 }
+//TERCERA SECTION
+// .bg-section {
+
+// }
+.underline {
+  border-bottom: 2px solid black; /* Borde inferior de 1 píxel de grosor y color negro */
+  display: inline-block; /* Esto evita que el borde ocupe todo el ancho de la línea */
+  padding-bottom: 5px; /* Espacio entre el texto y la línea (ajusta según sea necesario) */
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+//fourth SECTION
+.fourth-section{
+  background-color: black;
+  color: white;
+  padding-bottom: 10px;
+}
+footer{
+  background-color:#18191B;
+  color: #7F8386;
+}
+footer p{
+  // font-family:'Roboto Condensed';
+
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
  
-}
+} 
