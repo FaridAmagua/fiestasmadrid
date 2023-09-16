@@ -1,0 +1,64 @@
+
+  .title{
+    color: white;
+    font-size: 4rem;
+  }
+  .title-2{
+    color: white;
+    font-size: 2rem;
+    font-family:'Roboto Condensed';
+  }
+  //SEGUNDA SECTION
+  /* Estilos para la imagen de la tarjeta */
+  .link-party{
+    color: #ff00a6;
+  }
+  .link-party:hover{
+  color: black;
+  }
+  .card{
+    background-color: whitesmoke;
+  }
+  h5.card-title {
+    background-color:black;
+    color: white;
+  }
+  .card-icon{
+    height: 15px;
+    margin-right: 10px;
+    font-size: 1rem;
+  
+  }
+  .card-text{
+    font-size: 0.9rem;
+  }
+  #btn-card{
+    width: 100%;
+  }
+  .underline {
+    border-bottom: 2px solid black; /* Borde inferior de 1 píxel de grosor y color negro */
+    display: inline-block; /* Esto evita que el borde ocupe todo el ancho de la línea */
+    padding-bottom: 5px; /* Espacio entre el texto y la línea (ajusta según sea necesario) */
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+//tercera section
+  .third-section h1{
+    color: #fff;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  .third-section p{
+    color: #fff;
+    text-align: start;
+  }
+  .img-small {
+    width: 100%; /* Ajusta el tamaño deseado */
+    height: auto;
+  }
+  @media screen and (max-width: 768px) {
+ 
+  }

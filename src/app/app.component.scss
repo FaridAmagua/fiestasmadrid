@@ -1,69 +1,23 @@
-
-.title{
-  color: white;
-  font-size: 4rem;
-}
-.title-2{
-  color: white;
-  font-size: 2rem;
-  font-family:'Roboto Condensed';
-}
-//SEGUNDA SECTION
-/* Estilos para la imagen de la tarjeta */
-.link-party{
-  color: #ff00a6;
-}
-.link-party:hover{
-color: black;
-}
-.card{
-  background-color: whitesmoke;
-}
-h5.card-title {
-  background-color:black;
-  color: white;
-}
-.card-icon{
-  height: 15px;
-  margin-right: 10px;
-  font-size: 1rem;
-
-}
-.card-text{
-  font-size: 0.9rem;
-}
-#btn-card{
-  width: 100%;
-}
-//TERCERA SECTION
-// .bg-section {
-
-// }
-.underline {
-  border-bottom: 2px solid black; /* Borde inferior de 1 píxel de grosor y color negro */
-  display: inline-block; /* Esto evita que el borde ocupe todo el ancho de la línea */
-  padding-bottom: 5px; /* Espacio entre el texto y la línea (ajusta según sea necesario) */
-}
-a{
-  text-decoration: none;
-  color: #fff;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-//fourth SECTION
-.fourth-section{
-  background-color: black;
-  color: white;
-  padding-bottom: 10px;
+body {
+  display: flex;
+  flex-direction: column;
 }
-footer{
-  background-color:#18191B;
-  color: #7F8386;
+
+main {
+  flex-grow: 1; /* Hace que el contenido principal ocupe todo el espacio disponible */
+}
+
+footer {
+  background-color: #333; /* Color de fondo del footer */
+  color: white; /* Color del texto del footer */
+  padding: 10px; /* Espacio interior del footer */
 }
 footer p{
-  // font-family:'Roboto Condensed';
-
+  color: #7e8487;
 }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 3) {
- 
-} 

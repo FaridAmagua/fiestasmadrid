@@ -4,15 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CorouselComponent } from './corousel/corousel.component';
 import { GirlspartyComponent } from './pages/girlsparty/girlsparty.component';
+import { HomeComponent } from './pages/home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CorouselComponent,
     GirlspartyComponent,
+    HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

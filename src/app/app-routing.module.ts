@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { GirlspartyComponent } from './pages/girlsparty/girlsparty.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/inicio', pathMatch: 'full' }, // Ruta por defecto
   {
-    path: 'girlsparty',
-    component: GirlspartyComponent,
-    children: [
-      
-      ],
+    path:'',
+    component:HomeComponent,
+    pathMatch:'full'    
   },
+  { path: 'chicas', 
+  component: GirlspartyComponent },
+
+
 ];
 
 @NgModule({

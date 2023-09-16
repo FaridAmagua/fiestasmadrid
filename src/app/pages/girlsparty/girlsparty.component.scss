@@ -1,0 +1,182 @@
+*{
+    color: white;
+
+}
+.title-1{
+    // color: #ff00a6;
+    // color:  #cf9e0b;
+
+}
+.title-2{
+    font-size: 1.1rem;    
+    font-family: 'Roboto Condensed';
+}
+.texto{
+    font-family: 'Exo 2';
+    color: #CDCDCE;
+}
+
+//cards
+
+.card-img-top{
+    height: auto;
+    width: 400px;
+}
+
+//cards-img
+.card{
+    display: relative;
+    width:300px;
+    height: 350px;
+    background-color: black;
+    margin: 0;  
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front{
+    transform: perspective(600px) rotate(0deg);
+    box-shadow: 0 6px 10px #000;
+}
+.card .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .front h3{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    line-height: 45px;
+    margin: 0;
+    color: #fff;
+    // background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+}
+.card .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(79, 79, 79,0.2);
+    padding: 15px;
+    color: #f3f3f3;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+.subtitle{
+    text-align: center;
+    font-size: 15px;
+    // font-family:Arial;
+}
+h5.subtitle{
+    font-size: 14px;
+    color: #CDCDCE;
+    text-align: center;
+}
+p.card-text{    
+    padding-top: 3px;
+    color: #fff;
+    height: 100%;
+    font-size: 14px;
+    margin: 0px;
+    // font-family:'Exo 2';    
+}
+.card .back h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    letter-spacing: 2px;    
+}
+.card .back .link{
+    margin: 0px;    
+    padding: 0px;
+    border-top: solid 1px #CDCDCE;
+    height: 100%;
+    // line-height: 0px;
+}
+.card .back p{
+    letter-spacing: 1px;
+}
+.texto a{
+    color: #CC9B30;
+}
+.card a{
+    color: #CC9B30;
+    font-size: 14px;
+}
+.card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+/// galery imgs
+.container-img{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 450px; 
+    grid-gap: 0px;
+    padding: 100px , 0;  
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        display: relative;
+        width:350px;        
+        height: 400px;
+        background-color: black;
+        margin: 0;
+        margin-top: 20px; 
+    }
+    .title-2{
+        font-size: 1.1em;
+    }
+    .box-img:nth-child(1) img {
+        content: url('../../../assets/galery-imgs/mobile1.png'); /* Cambia la ruta a tu nueva imagen */
+    }
+    .box-img:nth-child(2) img {
+        content: url('../../../assets/galery-imgs/mobile2.png'); /* Cambia la ruta a tu nueva imagen */
+    }
+    .box-img:nth-child(3) img {
+        content: url('../../../assets/galery-imgs/mobile3.png'); /* Cambia la ruta a tu nueva imagen */
+    }
+}
+
+/* Definir la animación */
+@keyframes changeColor {
+    0% {
+        color: #fff; /* Color inicial */
+    }
+    50% {
+        color: #ff00a6; /* Color de transición */
+    }
+    100% {
+        color: pink; /* Color final */
+    }
+}
+
+/* Aplicar la animación a la clase .color-change */
+.color-change {
+    animation: changeColor 4.5s infinite; /* Duración de la animación y repetición infinita */
+}
+
