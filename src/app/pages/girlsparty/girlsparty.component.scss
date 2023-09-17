@@ -1,6 +1,6 @@
 *{
     color: white;
-
+    
 }
 .title-1{
     // color: #ff00a6;
@@ -140,6 +140,17 @@ p.card-text{
 }
 
 @media screen and (max-width: 768px) {
+    
+
+    h1.title-1{
+        text-align: center;
+    }
+    h5.title-2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
     .card{
         display: relative;
         width:350px;        

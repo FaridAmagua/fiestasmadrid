@@ -86,6 +86,9 @@
 // styles.scss
 @media screen and (max-width: 768px) {
   /* Centrar los elementos de la lista en la barra de navegación */
+  .navbar-brand {
+    padding-left: 50px;
+  }
   .navbar-nav {
       display: flex;
       flex-direction: column;
