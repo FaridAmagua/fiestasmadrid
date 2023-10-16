@@ -2,11 +2,6 @@
     color: white;
     
 }
-.title-1{
-    // color: #ff00a6;
-    // color:  #cf9e0b;
-
-}
 .title-2{
     font-size: 1.1rem;    
     font-family: 'Roboto Condensed';
@@ -191,3 +186,6 @@ p.card-text{
     animation: changeColor 4.5s infinite; /* Duración de la animación y repetición infinita */
 }
 
+@media only screen and (max-width: 768px) {
+   
+}

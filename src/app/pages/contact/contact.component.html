@@ -1,0 +1,47 @@
+<section class="section_contact pb-5">
+
+    <!-- <pre>{{contactForm.value |json }}</pre> -->
+    <div class="container">
+        <h1 class="mt-5">FORMULARIO DE CONTACTO</h1>
+        <form (ngSubmit)="onSubmit(contactForm.value)" #contactForm="ngForm">
+            <div class="mb-4 mt-5">
+                <label for="name" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="name" name="name" ngModel required>
+                <div class="invalid-feedback">Esta columna es requerida</div>
+            </div>
+            <div class="mb-4">
+                <label for="surname" class="form-label">Apellidos:</label>
+                <input type="text" class="form-control" id="surname" name="surname" ngModel required>
+                <div class="invalid-feedback">Esta columna es requerida</div>    
+            </div>
+            <div class="mb-4">
+                <label for="surname" class="form-label">Número de contacto:</label>
+                <input type="text" class="form-control" id="surname" name="surname" ngModel required="">
+                <div class="invalid-feedback">Esta columna es requerida</div>    
+            </div>
+            <div class="mb-4">
+                <label for="subject" class="form-label">Asunto:</label>
+                <select name="subject" id="subject" class="form-select form-select-sm" ngModel required>
+                    <option value="preguntas">Preguntas</option>
+                    <option value="colaboraciones">Colaboraciones</option>
+                    <option value="reservas">Reservas</option>
+                </select>
+                <div class="invalid-feedback">Esta columna es requerida</div>
+            </div>
+            <div class="mb-4">
+                <label for="comment" class="form-label">Motivo del contacto:</label><br>
+                <textarea class="form-control" name="comment" id="comment" cols="30" rows="4" ngModel>
+                </textarea>
+            </div>
+            <div class="d-grid gap-2 col-2 ">
+                <button type="submit" class="btn  btn-dark btn-md">
+                    enviar
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+<section style="background-color: black;">
+  <app-footer>
+  </app-footer>
+</section>

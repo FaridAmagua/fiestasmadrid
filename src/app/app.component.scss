@@ -7,6 +7,9 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  //
+  min-height: 100vh; /* Asegura que el cuerpo ocupa al menos toda la altura de la ventana */
+  margin: 0;
 }
 
 main {
